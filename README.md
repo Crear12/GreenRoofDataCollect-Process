@@ -2,11 +2,12 @@
 It's a class project related to Green Roof Project in Rutgers. The project includes collecting data using Arduino&amp;sensors(C), visualization and modeling(python).
 # Data Collection
 ## Hardware
-1. Adafruit METRO
-2. Capacitive Soil Moisture Sensor V1.2 
-3. TMP36 temperature sensor
-4. A power bank
-5. An 8GB SD card
+### 1. Adafruit METRO
+
+### 2. Capacitive Soil Moisture Sensor V1.2 
+### 3. TMP36 temperature sensor
+### 4. A power bank
+### 5. An 8GB SD card
 
 
 ## Codes

@@ -20,3 +20,13 @@ The initial idea is collecting data from sensors to PC directly. OutputTemp.ino 
 
 ### 2. Offline data collection(SD card based)
 Considering that we are collecting outdoor data and we cannot put our laptop outside all the time, we developped another code to do all the things on Adafruit METRO without a PC. SensorOutput.ino was designed to collect moisture data and temperature data of soil surface consistantly and write the collected data into a txt file and store the file on a SD card.
+
+# Data Visualization
+## Data Filtering
+Data Filtering.py used lowpass filter, highpass filter and Fast Fourier transform to filter the data.
+## Data Regression
+Gaussian was used in Data regression.py for data regression.
+## Data Visualization
+Visualization.py is the script for data visualization.
+
+# Numerical Model

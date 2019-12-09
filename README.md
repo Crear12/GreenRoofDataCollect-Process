@@ -30,3 +30,8 @@ Gaussian was used in Data regression.py for data regression.
 Visualization.py is the script for data visualization.
 
 # Numerical Model
+dM/dt = -0.000002(T-Taverage)
+Model.py was used to realize the proposed numerical model. The data used was collected on Nov.,28,2019().
+
+# One more thing
+During our data collection, our devices were mis-detected as bomb and the police came > <, which disabled us to collect enough data to develop a better model.

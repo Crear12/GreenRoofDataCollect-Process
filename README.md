@@ -31,6 +31,7 @@ Visualization.py is the script for data visualization.
 
 # Numerical Model
 dM/dt = -0.000002(T-Taverage)
+
 Model.py was used to realize the proposed numerical model. The data used was collected on Nov.,28,2019(Mois_Temp_Nov28-Dec1.csv).
 
 # One more thing

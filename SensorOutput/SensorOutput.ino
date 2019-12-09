@@ -50,7 +50,7 @@ void loop() {
     // if the file didn't open, print an error:
     Serial.println("error opening Temp.txt");
   }
-  delay(10000);//repeat once per 10s (change as you wish!)
+  delay(600000);//repeat once per 10min (change as you wish!)
 }
 
 float getVoltage(int pin)

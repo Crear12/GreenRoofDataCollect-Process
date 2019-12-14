@@ -13,6 +13,35 @@ A power bank was used to power the whole data collection system.
 ### 5. An 8GB SD card
 An 8GB SD card was used to store the collected data.
 
+## Procedures
+### Real-time Data Collection System
+Sensors to MCU:
+Connect the MCU and the Sensors
+Make the MCU Read the Signal(Voltage) from Sensors
+Calibrate the Sensors by Calculating the Real Data and the Signal
+Transform the Signal into Information(Temperature(Celsius) and Humidity(Percentage))
+Output the Information
+
+MCU to PC:
+Connect the MCU and PC
+Make the PC Read the Output of MCU
+Store the Data & Process
+
+### Offline Collection System
+Sensors to MCU:
+Connect the MCU and the Sensors
+Make the MCU Read the Signal(Voltage) from Sensors
+Calibrate the Sensors by Calculating the Real Data and the Signal
+Transform the Signal into Information(Temperature(Celsius) and Humidity(Percentage))
+Same as Real-time Data Collection ⬆️
+Newer Ones ⬇️
+MCU to SD Card:
+Connect the MCU and SD card writer
+Format the SD card into FAT32
+Insert the SD card
+Make the MCU write the data into SD card
+Read the SD card and extract the data
+
 ## Codes
 Data collection includes two parts: 
 ### 1. Real-time data collection(PC-based)

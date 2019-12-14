@@ -33,9 +33,11 @@ Sensors to MCU:
 2. Make the MCU Read the Signal(Voltage) from Sensors
 3. Calibrate the Sensors by Calculating the Real Data and the Signal
 4. Transform the Signal into Information(Temperature(Celsius) and Humidity(Percentage))
+
 Same as Real-time Data Collection ⬆️
 Newer Ones ⬇️
-1. MCU to SD Card:
+
+MCU to SD Card:
 2. Connect the MCU and SD card writer
 3. Format the SD card into FAT32
 4. Insert the SD card

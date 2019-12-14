@@ -17,9 +17,13 @@ An 8GB SD card was used to store the collected data.
 ### Real-time Data Collection System
 Sensors to MCU:
 1. Connect the MCU and the Sensors
+Use A0-A4 for data receiving. For example, 2 sensors were used in this project. So use A0 to read data from moisture sensor and use A1 to read temperature sensor.
 2. Make the MCU Read the Signal(Voltage) from Sensors
+Initiate the MCU and data receiving pin to read the signal from sensors. 
 3. Calibrate the Sensors by Calculating the Real Data and the Signal
+The moisture sensor requires calibration. Firstly, read and record the voltage from dry air as 0% humidity. Secondly, read and record the voltage from water as 100% humidity. After getting both boundaries, more accurate levels can be divided.
 4. Transform the Signal into Information(Temperature(Celsius) and Humidity(Percentage))
+Use equation to automatically calculate the temperature and moisture based on the voltages.
 5. Output the Information
 
 MCU to PC:
@@ -30,8 +34,14 @@ MCU to PC:
 ### Offline Collection System
 Sensors to MCU:
 1. Connect the MCU and the Sensors
+
+
 2. Make the MCU Read the Signal(Voltage) from Sensors
+
+
 3. Calibrate the Sensors by Calculating the Real Data and the Signal
+
+ 
 4. Transform the Signal into Information(Temperature(Celsius) and Humidity(Percentage))
 
 Same as Real-time Data Collection ⬆️

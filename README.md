@@ -35,14 +35,15 @@ Sensors to MCU:
 4. Transform the Signal into Information(Temperature(Celsius) and Humidity(Percentage))
 
 Same as Real-time Data Collection ⬆️
+
 Newer Ones ⬇️
 
 MCU to SD Card:
-2. Connect the MCU and SD card writer
-3. Format the SD card into FAT32
-4. Insert the SD card
-5. Make the MCU write the data into SD card
-6. Read the SD card and extract the data
+1. Connect the MCU and SD card writer
+2. Format the SD card into FAT32
+3. Insert the SD card
+4. Make the MCU write the data into SD card
+5. Read the SD card and extract the data
 
 ## Codes
 Data collection includes two parts: 

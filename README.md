@@ -16,16 +16,16 @@ An 8GB SD card was used to store the collected data.
 ## Procedures
 ### Real-time Data Collection System
 Sensors to MCU:
-Connect the MCU and the Sensors
-Make the MCU Read the Signal(Voltage) from Sensors
-Calibrate the Sensors by Calculating the Real Data and the Signal
-Transform the Signal into Information(Temperature(Celsius) and Humidity(Percentage))
-Output the Information
+1. Connect the MCU and the Sensors
+2. Make the MCU Read the Signal(Voltage) from Sensors
+3. Calibrate the Sensors by Calculating the Real Data and the Signal
+4. Transform the Signal into Information(Temperature(Celsius) and Humidity(Percentage))
+5. Output the Information
 
 MCU to PC:
-Connect the MCU and PC
-Make the PC Read the Output of MCU
-Store the Data & Process
+1. Connect the MCU and PC
+2. Make the PC Read the Output of MCU
+3. Store the Data & Process
 
 ### Offline Collection System
 Sensors to MCU:

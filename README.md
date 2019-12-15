@@ -79,7 +79,7 @@ MCU to SD Card:
 1. Connect the MCU and SD card writer
 2. Format the SD card into FAT32
 3. Insert the SD card
-4. Make the MCU write the data into SD card
+4. Make the MCU write the data into SD card with SensorOutput.ino.
 5. Read the SD card and extract the data
 
 ## Codes

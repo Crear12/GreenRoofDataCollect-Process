@@ -17,32 +17,59 @@ An 8GB SD card was used to store the collected data.
 ### Real-time Data Collection System
 Sensors to MCU:
 1. Connect the MCU and the Sensors
+
 Use A0-A4 for data receiving. For example, 2 sensors were used in this project. So use A0 to read data from moisture sensor and use A1 to read temperature sensor.
+
 2. Make the MCU Read the Signal(Voltage) from Sensors
+
 Initiate the MCU and data receiving pin to read the signal from sensors. 
+
 3. Calibrate the Sensors by Calculating the Real Data and the Signal
+
 The moisture sensor requires calibration. Firstly, read and record the voltage from dry air as 0% humidity. Secondly, read and record the voltage from water as 100% humidity. After getting both boundaries, more accurate levels can be divided.
+
 4. Transform the Signal into Information(Temperature(Celsius) and Humidity(Percentage))
+
 Use equation to automatically calculate the temperature and moisture based on the voltages.
+
 5. Output the Information
 
 MCU to PC:
 1. Connect the MCU and PC
+
+Use a micro-USB to USB cable to connect the MCU to any PC USB port. Use Arduino IDE to check the connected port ID.
+
 2. Make the PC Read the Output of MCU
+
+Use pip install pyserial or conda install pyserial to install the serial module for python. Use serial.Serial(‘{Port_ID}’,9600).readline().decode(‘utf-8’) to read the data from MCU through python.
+
 3. Store the Data & Process
+
+Use csv module to write the data into Comma-separated values(csv) file, set up sharing folder for data transferring between different computers.
+
+4. Visualization&Processing
+
+Use matplotlib to visualize the data. Use sklearn to do some basic processing.
 
 ### Offline Collection System
 Sensors to MCU:
 1. Connect the MCU and the Sensors
 
+Use A0-A4 for data receiving. For example, 2 sensors were used in this project. So use A0 to read data from moisture sensor and use A1 to read temperature sensor.
 
 2. Make the MCU Read the Signal(Voltage) from Sensors
 
+Initiate the MCU and data receiving pin to read the signal from sensors. 
 
 3. Calibrate the Sensors by Calculating the Real Data and the Signal
 
- 
+The moisture sensor requires calibration. Firstly, read and record the voltage from dry air as 0% humidity. Secondly, read and record the voltage from water as 100% humidity. After getting both boundaries, more accurate levels can be divided.
+
 4. Transform the Signal into Information(Temperature(Celsius) and Humidity(Percentage))
+
+Use equation to automatically calculate the temperature and moisture based on the voltages.
+
+5. Output the Information
 
 Same as Real-time Data Collection ⬆️
 
